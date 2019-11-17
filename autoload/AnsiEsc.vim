@@ -1528,8 +1528,8 @@ fun! AnsiEsc#AnsiEsc(rebuild)
    " ---------------------
 "   call Decho("set up 8-color highlighting groups")
    hi ansiBlack             ctermfg=Black      guifg=Black                                        cterm=NONE         gui=NONE
-   hi ansiRed               ctermfg=DarkRed        guifg=DarkRed                                          cterm=NONE         gui=NONE
-   hi ansiGreen             ctermfg=DarkGreen      guifg=DarkGreen                                        cterm=NONE         gui=NONE
+   hi ansiRed               ctermfg=red        guifg=red                                          cterm=NONE         gui=NONE
+   hi ansiGreen             ctermfg=green      guifg=green                                        cterm=NONE         gui=NONE
    hi ansiYellow            ctermfg=DarkYellow     guifg=DarkYellow                                       cterm=NONE         gui=NONE
    hi ansiBlue              ctermfg=DarkBlue       guifg=DarkBlue                                         cterm=NONE         gui=NONE
    hi ansiMagenta           ctermfg=DarkMagenta    guifg=DarkMagenta                                      cterm=NONE         gui=NONE
